@@ -4,14 +4,22 @@ using UnityEngine;
 
 public class CameraControl : MonoBehaviour
 {
-    public float moveSpeed = 10f;
+    public float horizontalSpeed = 10f;
+    public float verticalSpeed = 10f;
 
     void Update()
     {
-        float mouseX = Input.GetAxis("Mouse X");
-        float mouseY = Input.GetAxis("Mouse Y");
+        //float h = horizontalSpeed * Input.GetAxis("Mouse X");
+        //float v = verticalSpeed * Input.GetAxis("Mouse Y");
 
-        if()
+        float mxVal = Input.GetAxis("Mouse X");
+        float myVal = Input.GetAxis("Mouse Y");
+
+        //if(mxVal != 0)
+            //transform.Translate()
+
+
+
     }
 }
 
