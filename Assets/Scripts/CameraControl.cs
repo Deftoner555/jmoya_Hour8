@@ -18,6 +18,8 @@ public class CameraControl : MonoBehaviour
         //if(mxVal != 0)
             //transform.Translate()
 
+        
+
 
 
     }
